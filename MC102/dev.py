@@ -1,5 +1,7 @@
 import os
+from sys import argv
 from colorama import init, Fore
+from inspect import isfunction
 
 init()
 
@@ -25,6 +27,17 @@ def checa():
         else:
             print(Fore.RED, f"lab{n:02} não encontrado")
 
+def enunciados():
+    for n in range(1, N_LABS+1):
+        try:
+            os.rename(f"Lab {n:02}.pdf", os.path.join(f"lab{n:02}","enunciado.pdf"))
+        except FileNotFoundError:
+            print(Fore.RED, f"Arquivo Lab {n:02}.pdf não encontrado")
+        else:
+            print(Fore.GREEN, f"Arquivo Lab {n:02}.pdf adicionado")
+
 if __name__ == '__main__':
-    adiciona()
-    checa()
+    if len(argv) < 2:
+        print("Escolha o modo")
+    else:
+        exec(f"{argv[1]}()")
