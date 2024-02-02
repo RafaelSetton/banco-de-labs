@@ -1,0 +1,15 @@
+15
+bat-alloc 7 53 54 27 58 58 52 44
+bat-alloc 7 58 31 58 62 42 39 27
+bat-alloc 15 64 44 44 58 58 40 49 56 43 38 45 50 30 65 53
+bat-alloc 31 37 33 58 53 44 56 67 39 25 56 53 58 48 64 55 61 30 40 67 42 26 31 53 36 57 66 52 24 28 62 48
+bat-uso
+bat-free 16
+bat-alloc 9 67 61 56 29 32 31 67 32 63
+bat-alloc 5 43 55 35 47 44
+bat-free 16
+bat-free 32
+bat-uso
+bat-print 26
+bat-free 26
+bat-uso

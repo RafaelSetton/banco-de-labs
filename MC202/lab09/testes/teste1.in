@@ -1,0 +1,16 @@
+#include <lanister.h>
+
+int main () {
+    int a;
+    int b;
+
+    c = b + a;
+    printf("%d", c);
+
+    char d;
+    a = d + b;
+
+    d = b + a;
+
+    return 0;
+}

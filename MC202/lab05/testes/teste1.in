@@ -1,0 +1,7 @@
+6
+bat-alloc 5 1 2 3 4 5
+bat-print 0
+bat-alloc 3 9 8 7
+bat-print 6
+bat-free 0
+bat-uso

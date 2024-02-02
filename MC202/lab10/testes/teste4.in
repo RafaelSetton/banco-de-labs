@@ -1,0 +1,32 @@
+2 5
+Vinicio Gardenia 233737
+Nilda Marta 233831
+Nathan Maurer 186344
+Fernanda Vargas 379025
+Admilto Gardenia 44769
+5
+novo 0 Nettle Rolls
+novo 1 Surf 'n' Turf
+novo 2 Beefy Greens
+novo 4 Leafy Meatloaf
+novo 3 Mushy Cake
+3
+altera 2 -77716
+altera 4 380326
+altera 0 643484
+5
+novo 1 Barnacle Pita
+altera 2 -78541
+novo 4 Wobster Dinner
+novo 0 Meaty Stew
+novo 3 Figatoni
+5
+altera 4 140924
+altera 0 104406
+novo 1 Ceviche
+altera 2 552025
+novo 3 Spicy Chili
+2
+altera 1 314409
+altera 4 -78054
+0

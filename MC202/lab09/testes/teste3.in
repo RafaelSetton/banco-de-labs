@@ -1,0 +1,12 @@
+#include <westeros.h>
+
+int main() {
+
+    int Addison_Hoover;
+    int Claire_Hancock;
+    char Enrique_Cervantes;
+    char Luke_Mcneil;
+    Addison_Hoover = Addison_Hoover + Claire_Hancock;
+
+    return 0;
+}

@@ -1,0 +1,20 @@
+#include <stark.h>
+
+int main () {
+    int sansa;
+    int robb;
+    char catelyn;
+    double arya;
+
+    if (sansa < robb) {
+       int bran;
+       bran = catelyn + robb;
+    } else {
+       double ned;
+
+       ned = robb - sansa;
+    }
+
+    sansa = tyrion - robert;
+    arya = catelyn - robert;
+}
