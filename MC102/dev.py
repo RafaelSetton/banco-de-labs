@@ -10,7 +10,7 @@ def adiciona():
 
     for n in range(1, N_LABS+1):
         try:
-            os.rename(f"lab{n:02}.py", f"lab{n:02}\\{nome}.py")
+            os.rename(f"lab{n:02}.py", os.path.join(f"lab{n:02}",f"{nome}.py"))
         except FileNotFoundError:
             print(Fore.RED, f"Arquivo lab{n:02}.py não encontrado")
         else:
@@ -26,4 +26,5 @@ def checa():
             print(Fore.RED, f"lab{n:02} não encontrado")
 
 if __name__ == '__main__':
+    adiciona()
     checa()
