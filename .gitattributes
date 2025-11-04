@@ -1,0 +1,2 @@
+# Treat .res files as plain text
+*.res linguist-language=Text
